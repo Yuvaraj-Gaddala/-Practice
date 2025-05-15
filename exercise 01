@@ -46,3 +46,29 @@ Output:
 7
 sum of odd numbers from 1 to 7 is: 16
 
+3) Write a function which takes in 2 numbers and returns the greater of those two.
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      int a = sc.nextInt();
+      int b = sc.nextInt();
+      if(a>b)
+        System.out.println("Greatest value is "+a);
+       else if(b>a)
+        System.out.println("Greatest value is "+b);
+        else
+        System.out.println("Both values are equal ");
+      }
+    }
+Input:
+67
+89
+Output:
+
+Greatest number is :89
+
+4) Write a function that takes in the radius as input and returns the circumference of a circle.
+
