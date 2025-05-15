@@ -1,0 +1,23 @@
+1) Enter 3 numbers from the user & make a function to print their average.
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      int a = sc.nextInt();
+      int b = sc.nextInt();
+      int c = sc.nextInt();
+      long average=(a+b+c)/3;
+      System.out.println("Average of "+a+", "+b+" and "+ c + " is : "+ average);
+  }
+}
+
+input :
+2
+3
+4
+output:
+Average of 2, 3 and 4 is : 3
+
+2) Write a function to print the sum of all odd numbers from 1 to n.
+
