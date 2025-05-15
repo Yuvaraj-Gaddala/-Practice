@@ -187,4 +187,23 @@ negative
 8)Two numbers are entered by the user, x and n. Write a function to find the value of 
    one number raised to the power of another i.e. xn.
 
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      int x = sc.nextInt();
+      int n = sc.nextInt();
+      int power = (int)Math.pow(x,n);
+      System.out.println(power);
+  }
+}
+Input:
+2
+3
+Output:
+
+8
+
+9) Write a function that calculates the Greatest Common Divisor of 2 numbers. 
 
