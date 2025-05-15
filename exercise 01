@@ -72,3 +72,23 @@ Greatest number is :89
 
 4) Write a function that takes in the radius as input and returns the circumference of a circle.
 
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      double r = sc.nextDouble();
+      double circumference = 2*Math.PI*r;
+      System.out.println(circumference);
+  }
+}
+
+Input:
+5
+Output:
+
+31.41592653589793
+
+5) Write a function that takes in age as input and returns if that person is eligible 
+   to vote or not. A person of age > 18 is eligible to vote.
+
