@@ -114,3 +114,77 @@ eligible to vote
 
 5) Write an infinite loop using do while condition
 
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      int count=1;
+      do{
+        System.out.println(count);
+      count++;
+      }
+      while(true);
+  }
+}
+Output:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+.
+.
+.
+.
+.
+
+7) Write a program to enter the numbers till the user wants and at the end it should display 
+   the count of positive, negative and zeros entered. 
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      while(sc.hasNextInt()){
+        int num = sc.nextInt();
+        if(num == 0){
+          System.out.println("zero");
+        }else if(num>0){
+          System.out.println("Positive");
+        }else{
+          System.out.println("negative");
+        }
+      }
+  }
+}
+Input:
+4
+5
+0
+8
+-3
+4
+-5
+-7
+Output:
+
+Positive
+Positive
+zero
+Positive
+negative
+Positive
+negative
+negative
+
+
+8)Two numbers are entered by the user, x and n. Write a function to find the value of 
+   one number raised to the power of another i.e. xn.
+
+
