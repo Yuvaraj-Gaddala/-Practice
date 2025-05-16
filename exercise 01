@@ -247,3 +247,7 @@ Output:
 factors of 6 are : 1 2 3 6 
 factors of 8 are : 1 2 4 8 
 Gcd of 6 and 8 is : 2
+
+10) Write a program to print Fibonacci series of n terms where n is input by user :
+    0 1 1 2 3 5 8 13 21 ..... 
+    In the Fibonacci series, a number is the sum of the previous 2 numbers that came before it.
