@@ -207,3 +207,43 @@ Output:
 
 9) Write a function that calculates the Greatest Common Divisor of 2 numbers. 
 
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      int a = sc.nextInt();
+      int b = sc.nextInt();
+      System.out.print("factors of "+ a +" are : ");
+      for(int i=1;i<=a;i++){
+        if(a%i==0){
+          System.out.print(i+" ");
+        }
+      }
+      System.out.println();
+      System.out.print("factors of "+ b+" are : ");
+      for(int i=1;i<=b;i++){
+        if(b%i==0){
+          System.out.print(i+" ");
+        }
+      }
+      System.out.println();
+      int gcd = 1;
+      for(int i=Math.min(a,b);i>=1;i--){
+        if(a%i==0 && b%i==0){
+          gcd = i;
+          break;
+        }
+      }
+      System.out.println("Gcd of "+a+" and "+b+" is : "+gcd);
+        }
+}
+Input:
+6
+8
+
+Output:
+
+factors of 6 are : 1 2 3 6 
+factors of 8 are : 1 2 4 8 
+Gcd of 6 and 8 is : 2
