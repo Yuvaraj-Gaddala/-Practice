@@ -450,3 +450,225 @@ Output:
     3 2 1 2 3 
   4 3 2 1 2 3 4 
 5 4 3 2 1 2 3 4 5 
+
+5) 
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      int n=5;
+      for(int i=1;i<=n;i++){
+        for(int j=1;j<=i;j++){
+          System.out.print("* ");
+        }
+      System.out.println();
+      }
+      for(int i=4;i>=1;i--){
+        for(int j=1;j<=i;j++){
+          System.out.print("* ");
+        }
+      System.out.println();
+      }
+  }
+}
+Output:
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+
+6)
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      int n=5;
+      for(int i=1;i<=n;i++){
+        for(int j=1;j<=n-i;j++){
+          System.out.print(" ");
+        }
+        for(int j=1;j<=i;j++){
+          System.out.print("*");
+        }
+      System.out.println();
+      }
+  }
+}
+Output:
+
+    *
+   **
+  ***
+ ****
+*****
+
+7)
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      int n=5;
+      for(int i=1;i<=n;i++){
+        for(int j=1;j<=i-1;j++){
+          System.out.print(" ");
+        }
+        for(int j=5;j>=i;j--){
+          System.out.print("*");
+        }
+      System.out.println();
+      }
+  }
+}
+
+Output:
+
+*****
+ ****
+  ***
+   **
+    *
+
+8)
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      int n=5;
+      for(int i=1;i<=n;i++){
+        for(int j=1;j<=n-i;j++){
+          System.out.print(" ");
+        }
+        for(int j=1;j<=(2*i-1);j++){
+          System.out.print("*");
+        }
+      System.out.println();
+      }
+  }
+}
+Output:
+
+    *
+   ***
+  *****
+ *******
+*********
+
+9)
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      int n=5;
+      for(int i=5;i>=1;i--){
+        for(int j=1;j<=n-i;j++){
+          System.out.print(" ");
+        }
+        for(int j=1;j<=(2*i-1);j++){
+          System.out.print("*");
+        }
+      System.out.println();
+      }
+  }
+}
+Output:
+
+*********
+ *******
+  *****
+   ***
+    *
+10)
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      int n=5;
+      for(int i=1;i<=n;i++){
+        for(int j=1;j<=n-i;j++){
+          System.out.print(" ");
+        }
+        for(int j=1;j<=i;j++){
+          System.out.print(" *");
+        }
+      System.out.println();
+      }
+  }
+}
+Output:
+
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+
+11)
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      int n=5;
+      for(int i=5;i>=1;i--){
+        for(int j=1;j<=n-i;j++){
+          System.out.print(" ");
+        }
+        for(int j=1;j<=i;j++){
+          System.out.print(" *");
+        }
+      System.out.println();
+      }
+  }
+}
+Output:
+
+ * * * * *
+  * * * *
+   * * *
+    * *
+     *
+
+12)
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      int n=5;
+      for(int i=5;i>=1;i--){
+        for(int j=1;j<=n-i;j++){
+          System.out.print(" ");
+        }
+        for(int j=1;j<=i;j++){
+          System.out.print(" *");
+        }
+      System.out.println();
+      }
+      for(int i=1;i<=n;i++){
+        for(int j=1;j<=n-i;j++){
+          System.out.print(" ");
+        }
+        for(int j=1;j<=i;j++){
+          System.out.print(" *");
+        }
+      System.out.println();
+      }
+  }
+}
+Output:
+
+ * * * * *
+  * * * *
+   * * *
+    * *
+     *
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
+13)
